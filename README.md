@@ -2,7 +2,7 @@
 
 - Engine behind [newsfilter.io](https://newsfilter.io)
 
-![https://i.imgur.com/Rd7x9Mi.png](https://https://i.imgur.com/Rd7x9Mi.png)
+![https://i.imgur.com/Rd7x9Mi.png](https://i.imgur.com/Rd7x9Mi.png)
 
 # Install
 
