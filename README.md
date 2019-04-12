@@ -1,5 +1,9 @@
 # Realtime News API
 
+- Engine behind [newsfilter.io](https://newsfilter.io)
+
+![https://https://i.imgur.com/Rd7x9Mi.png](https://https://i.imgur.com/Rd7x9Mi.png)
+
 # Install
 
 `npm install realtime-newsapi`
