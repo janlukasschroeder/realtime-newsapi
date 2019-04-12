@@ -6,6 +6,8 @@
 
 # Node.js example
 
+Demo: https://codesandbox.io/s/k5q6nwqkrr
+
 ```js
 const api = require('realtime-newsapi')();
 
@@ -32,32 +34,44 @@ api.on('articles', articles => {
 ```js
 [
   {
-    title:
-      'Amazon Provides Robotics Grants to 100 Schools in Underserved and Underrepresented Communities Across the Country to Inspire Next Generation of Computer Scientists',
-    source: { id: 'businesswire', name: 'BusinessWire' },
-    url:
-      'https://seekingalpha.com/news/3450204-imf-world-bank-begin-spring-meetings',
+    source: { id: 'bloomberg', name: 'Bloomberg' },
     categories: [],
     symbols: [],
     markets: [],
-    content: '',
+    title: 'Oil Set for Longest Weekly Rally Since 2016 as Supply Risks Rise',
+    content:
+      'Oil headed for its longest weekly winning streak since 2016 as supply disruptions in Libya and Venezuela persist at a time when the OPEC+ coalition is showing record compliance with its pledged output cuts.\r\nFutures in New York rose 0.4 percent Friday and are… [+3809 chars]',
     description:
-      'SEATTLE--(BUSINESS WIRE)--Amazon (NASDAQ: AMZN) and FIRST today announced that 100 schools serving students from underrepresented and underserved communities from across the country will receive an Amazon Future Engineer Robotics Grant to inspire the next generation of computer scientists. The 100 schools across 21 states will receive support to launch FIRST robotics teams, including teacher professional development to learn about robotics, $10,000 from Amazon to expand access to computer science education in their school, and a tour of a local Amazon fulfillment center. Read more about the new program here.',
-    publishedAt: '2019-04-12T08:07:39+00:00',
-    id: '43bf590fbc62cb2eafcf9962f3092128'
+      'Oil headed for its longest weekly winning streak since 2016 as supply disruptions in Libya and Venezuela persist at a time when the OPEC+ coalition is showing record compliance with its pledged output cuts.',
+    url:
+      'https://www.bloomberg.com/news/articles/2019-04-11/oil-set-for-sixth-straight-weekly-gain-on-tighter-global-supply',
+    urlToImage:
+      'https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ib.Iu8vt84bY/v0/1200x800.jpg',
+    author: 'Heesu Lee',
+    important: false,
+    publishedAt: '2019-04-12T07:10:31Z',
+    country: '',
+    id: 'b4ad3d3b51b886e3c29bcb9b69e154f0'
   },
   {
-    source: { id: 'seekingAlpha', name: 'Seeking Alpha' },
+    source: { id: 'reuters', name: 'Reuters' },
     categories: [],
     symbols: [],
     markets: [],
-    title: 'UNIFIN Financiera reports Q1 results',
-    content: '',
-    description: '',
-    url:
-      'https://seekingalpha.com/news/3450203-unifin-financiera-reports-q1-results',
-    publishedAt: '2019-04-12T08:04:36+00:00',
-    id: '4ebab610525b5948a377b1db801dd57f'
+    title:
+      'China March exports rebound to five-month high but imports fall more than expected',
+    content:
+      'BEIJING (Reuters) - China’s exports rebounded in March but imports shrank for a fourth straight month and at a sharper pace, painting a mixed picture of the economy as trade talks with the United States reach their endgame. \r\nInvestors are hoping for more sig… [+4165 chars]',
+    description:
+      "China's exports rebounded in March but imports shrank for a fourth straight month and at a sharper pace, painting a mixed picture of the economy as trade talks with the United States reach their endgame.",
+    url: 'https://in.reuters.com/article/us-china-economy-trade-idINKCN1RO0Q7',
+    urlToImage:
+      'https://s3.reutersmedia.net/resources/r/?m=02&d=20190412&t=2&i=1376156960&w=1200&r=LYNXNPEF3B0HK',
+    author: 'Reuters Editorial',
+    important: false,
+    publishedAt: '2019-04-12T07:24:34Z',
+    country: '',
+    id: 'd2520491a4068da275c82b720d954ee0'
   }
 ];
 ```
