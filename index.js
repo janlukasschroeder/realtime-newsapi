@@ -17,8 +17,10 @@ const initSocket = () => {
   store.socket.on('articles', handleNewArticles);
 };
 
-const handleNewArticles = ({ articles }) => {
-  store.eventEmitter.emit('articles', articles);
+const handleNewArticles = ({ articles = [] }) => {
+  if (articles.length > 0) {
+    store.eventEmitter.emit('articles', articles);
+  }
 };
 
 module.exports.close = () => {
