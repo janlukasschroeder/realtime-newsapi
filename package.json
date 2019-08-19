@@ -14,7 +14,18 @@
   "keywords": [
     "Realtime",
     "News",
-    "API"
+    "API",
+    "Financial news",
+    "News API",
+    "News stream",
+    "SEC filings",
+    "Reuters",
+    "Bloomberg",
+    "JSON news",
+    "Analyst ratings",
+    "The Wall Street Journal",
+    "Seeking Alpha",
+    "News aggregator"
   ],
   "author": "Jan Schroeder",
   "license": "MIT",
@@ -24,5 +35,8 @@
   "homepage": "https://github.com/janlukasschroeder/realtime-newsapi#readme",
   "dependencies": {
     "socket.io-client": "^2.2.0"
+  },
+  "bin": {
+    "realtime-newsapi": "./index.js"
   }
 }

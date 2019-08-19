@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const io = require('socket.io-client');
 const config = require('./config');
 const events = require('events');
