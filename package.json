@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/janlukasschroeder/realtime-newsapi#readme",
   "dependencies": {
-    "socket.io-client": "^2.2.0"
+    "socket.io-client": "^2.4.0"
   },
   "bin": {
     "realtime-newsapi": "./index.js"

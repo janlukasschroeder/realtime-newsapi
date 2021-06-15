@@ -44,7 +44,7 @@ Type in your command line:
 ```js
 const api = require('realtime-newsapi')();
 
-api.on('articles', articles => {
+api.on('articles', (articles) => {
   console.log(articles);
 });
 ```
